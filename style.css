@@ -109,9 +109,6 @@ h1 {
  background: #303030;
  transform: translateY(-3px);
 }
-.choice-btn:active {
- transform: scale(0.97);
-}
 .choice-btn.selected {
  border-color: #ffffff;
  background: #303030;
