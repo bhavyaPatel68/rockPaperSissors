@@ -50,11 +50,10 @@ h1 {
 
 
 .score-box {
- background: #222222;
- border-radius: 10px;
- padding: 12px 24px;
- min-width: 90px;
- border: 1px solid #3f3f3f;
+background: #222222;
+padding: 12px 24px;
+min-width: 90px;
+border: 1px solid #3f3f3f;
 }
 
 
@@ -93,16 +92,15 @@ h1 {
  margin-bottom: 32px;
 }
 .choice-btn {
- background: #222222;
- border: 2px solid #3f3f3f;
- border-radius: 12px;
- padding: 16px 28px;
- cursor: pointer;
- font-size: 15px;
- font-weight: 600;
- color: #ffffff;
- font-family: 'Segoe UI', sans-serif;
- transition: transform 0.1s, border-color 0.15s, background 0.15s;
+background: #222222;
+border: 2px solid #3f3f3f;
+padding: 16px 28px;
+cursor: pointer;
+font-size: 15px;
+font-weight: 600;
+color: #ffffff;
+font-family: 'Segoe UI', sans-serif;
+transition: transform 0.1s, border-color 0.15s, background 0.15s;
 }
 .choice-btn:hover {
  border-color: #ffffff;
@@ -115,17 +113,15 @@ h1 {
 }
 
 .result-area {
- background: #222222;
- border: 1px solid #3f3f3f;
- border-radius: 12px;
- padding: 20px;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- gap: 12px;
+background: #222222;
+border: 1px solid #3f3f3f;
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 12px;
 }
-
 
 .result-area.hidden {
  display: none;
