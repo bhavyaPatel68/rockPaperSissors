@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Rock Paper Scissors</title>
+   <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+   <div class="card">
+     <h1>Rock Paper Scissors </h1>
+     <p class="subtitle">But dark themed</p>
+
+
+     <div class="scoreboard">
+       <div class="score-box">
+         <div class="label">You</div>
+         <div class="number" id="userScore">0</div>
+       </div>
+       <div class="score-box ties">
+         <div class="label">Ties</div>
+         <div class="number" id="tieScore">0</div>
+       </div>
+       <div class="score-box">
+         <div class="label">Robot</div>
+         <div class="number" id="cpuScore">0</div>
+       </div>
+     </div>
+
+
+     <p class="pick-label">Your choice</p>
+     <div class="choices">
+       <button class="choice-btn" onclick="play('rock')">Rock</button>
+       <button class="choice-btn" onclick="play('paper')">Paper</button>
+       <button class="choice-btn" onclick="play('scissors')">Scissors</button>
+     </div>
+
+
+     <div class="result-area hidden" id="resultArea">
+       <div class="result-message" id="resultMessage"></div>
+     </div>
+
+
+     <button class="play-again hidden" id="playAgainBtn" onclick="resetRound()">
+       Play again
+     </button>
+   </div>
+
+
+   <script src="script.js"></script>
+ </body>
+</html>
