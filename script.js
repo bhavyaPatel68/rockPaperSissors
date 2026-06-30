@@ -129,9 +129,7 @@ document.querySelectorAll('.choice-btn')[2].addEventListener('click', function (
 });
 
  document.getElementById('playAgainBtn').addEventListener('click', function () {
- document.getElementById('resultArea').classList.add('hidden');
- document.getElementById('playAgainBtn').classList.add('hidden');
- document.querySelectorAll('.choice-btn')[0].classList.remove('selected');
- document.querySelectorAll('.choice-btn')[1].classList.remove('selected');
- document.querySelectorAll('.choice-btn')[2].classList.remove('selected');
+ userWins = 0;
+ cpuWins  = 0;
+ ties     = 0;
 });
