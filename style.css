@@ -127,12 +127,11 @@ gap: 12px;
  display: none;
 }
 .result-message {
+color: #dddddd;
  font-size: 20px;
  font-weight: 700;
 }
-.result-message.win  { color: #40c057; }
-.result-message.lose { color: #fa5252; }
-.result-message.tie  { color: #888; }
+
 
 .play-again {
  margin-top: 20px;
